@@ -1,0 +1,3 @@
+Question 1:  Take three numbers from the user as input and alert minimum of those three. like; (10, -20, 50 -> -20), (15, 20, 45 -> 15). 
+
+Question 2:  Take a character from the user and show whether it is a volvel or consonant.
