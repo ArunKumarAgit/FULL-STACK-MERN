@@ -23,7 +23,7 @@ if (a<b && a<c) {
 //Take a character from the user and show whether it is a volvel or consonant.
 
 var a = prompt("enter the char");
-if (a == 'a' && a == 'e' && a == 'i' && a == 'o' && a == 'u') {
+if (a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u') {
     alert("it is ovel");
 } else {
     alert("it is consonant");
