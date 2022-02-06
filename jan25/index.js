@@ -1,54 +1,16 @@
-console.log("hello1");
 
-//print 1 to 10
-
-//var n = 1
-
-//print the first 15 even number
-//2,4,6,.....30.
-
-/*
-var n = 2;
-
-while (n <= 30) {
-  console.log(n);
-  n = n + 2
+//assignment 2:
+//take 3 numbers and write a program to find maximum of those 3 numbers.
+var a = 18;
+var b = 10;
+var c = 56;
+if(a>b && a>c) {
+    console.log("a is maximum");
+} else if(b>a && b>c) {
+    console.log("b is maximum");
+} else {
+    console.log("c is maximum");
 }
-
-*/
-
-/*
-var i = prompt("enter the number");
-i = parseInt(i);
-var counter = 0;
-while(counter < i ) {
-    console.log( (2 * counter) + 1);
-    counter = counter + 1;
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
