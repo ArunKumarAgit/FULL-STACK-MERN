@@ -5,13 +5,13 @@
 var a = 10;
 
 if(a < 10) {
-    console.log("number is lesser");
+    console.log(alert("number is lesser"));
 } 
 else if(a > 10) {
-    console.log("number is greater");
+    console.log(alert("number is greater"));
 }
 else {
-    console.log("number is equal");
+    console.log(alert("number is equal"));
 }
 
 
@@ -21,11 +21,11 @@ var a = 18;
 var b = 10;
 var c = 56;
 if(a>b && a>c) {
-    console.log("a is maximum");
+    console.log(alert("a is maximum"));
 } else if(b>a && b>c) {
-    console.log("b is maximum");
+    console.log(alert("b is maximum"));
 } else {
-    console.log("c is maximum");
+    console.log(alert("c is maximum"));
 }
 
 
