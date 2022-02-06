@@ -29,7 +29,7 @@ case "U":
         break;
 }
 }
-console.log("the total number of vowels is"+ " " +count);
+alert("the total number of vowels is"+ " " +count);
 
 
 //Question 2: User enters a number, check and tell whether that number is a prime number or not. 
