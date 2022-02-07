@@ -1,0 +1,42 @@
+<!-- MERN Assignment 07-02-22:
+Create a form (College admission form). 
+-> The form should be functional, that means submit and reset should work 
+-> It should also have proper validation. -->
+<html>
+    <head>
+        <title>Admission </title>
+    </head>
+    <body>
+        <form action="">
+            <h1 style="font-size: large; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">sambhram IT</h1>
+            <h1 style="text-align: center;" >contact us for admission</h1>
+            <br>
+            <br>
+            <h3>NAME*</h3>
+            <input type="text" placeholder="ENTER YOUR NAME" size="70" value="ARUN KUMAR A">
+            <br>
+            <br>
+            <h3>PHONE*</h3>
+            <input type="tel" placeholder="123-45-6780" size="70" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            <br>
+            <br>
+            <h3>EMAIL*</h3>
+            <input type="email" placeholder="enter your Email" size="70" name="email" required pattern=".+@gmail\.com">
+            <br>
+            <br>
+            <h3>ADDRESS</h3>
+            <textarea name="" id="" cols="67" rows="5" style="resize: none;" placeholder="Enter full address" minlength="10" maxlength="50"></textarea>
+            <br>
+            address line1
+            <br>
+            <br>
+            <textarea name="" id="" cols="32" rows="3" style="resize: none;"></textarea>&nbsp&nbsp;<textarea name="" id="" cols="31" rows="3" style="resize: none;"></textarea>
+            <br>
+            city&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state/province/region
+            <br>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
