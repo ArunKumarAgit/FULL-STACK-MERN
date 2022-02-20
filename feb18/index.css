@@ -1,10 +1,29 @@
 body{
-    background-color: rgba(47, 165, 243, 0.671);
+    background-color: rgb(253, 153, 22);
 }
-.div1{
-    background-color: aquamarine;
-    margin-left: 5cm;
-    margin-right: 5cm;
+tr:nth-child(3n+1){
+    background-color: rgb(211, 248, 0);
+}
+tr:nth-child(3n+2){
+    background-color: rgb(234, 59, 240);
+}
+
+tr:nth-child(3n+3){
+    background-color: rgb(81, 253, 54);
+}
+th{
+    background-color: black;
+    color:white;
+}
+table, th, td{
+    border: 2px solid #1222dd;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+}
+.center{
     text-align: center;
-    padding: 2mm;
+} 
+.table-width{
+    width: 100%;
 }
