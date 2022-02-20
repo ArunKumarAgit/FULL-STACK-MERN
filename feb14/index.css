@@ -1,0 +1,10 @@
+body{
+    background-color: rgba(47, 165, 243, 0.671);
+}
+.div1{
+    background-color: aquamarine;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    text-align: center;
+    padding: 2mm;
+}
