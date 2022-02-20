@@ -1,0 +1,82 @@
+body{
+    border: 1cm;
+    margin: 0px;
+    background-color: rgb(26, 231, 231);
+    background-image: url(./pexels-tuấn-kiệt-jr-1382731.jpg);
+    background-size:  100% 100%;background-repeat: no-repeat;
+}
+h2{
+    margin-top: 1cm;
+    background-image: url(./pexels-joy-deb-1580271.jpg);
+    background-size: 100%;
+    display: inline-block;
+    padding-left: 40%;
+}
+img{
+    height: 4cm;
+    width: 3cm;
+    max-height: 4cm;
+    max-width: 3cm;
+}
+.flex0{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 1cm;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-bottom: 1cm;
+}
+.flex3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 1cm;
+}
+.flex4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 1cm;
+}
+.flex5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 1cm;
+}
+.flex6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+body:hover{
+    cursor:all-scroll;
+    stroke: antiquewhite;
+}
+.flex0:focus{
+    display: block;
+}
