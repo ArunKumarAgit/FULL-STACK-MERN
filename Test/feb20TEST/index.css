@@ -3,8 +3,158 @@ body{
 }
 .div1{
     background-color: aquamarine;
-    margin-left: 5cm;
-    margin-right: 5cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
     text-align: center;
     padding: 2mm;
+    
+    border: 1px solid black;
+}
+.div2{
+    background-color: yellow;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    
+    border: 1px solid black;
+}
+
+.div3{
+    background-color: yellow;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.div4{
+    background-color: rgb(226, 214, 238);
+    padding: 10px;
+    
+    border: 1px solid black;
+}
+.div5{
+    text-align: center;
+    background-color: yellow;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: -10px;
+}
+.div6{
+    background-color: aquamarine;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 2px;
+    border: 1px solid black;
+}
+.div7{
+    text-align: center;
+    background-color: yellow;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.div8{
+    background-color: rgb(250, 239, 250);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 2px;
+    
+    border: 1px solid black;
+}
+.div9{
+    text-align: center;
+    background-color: yellow;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.div10{
+    background-color: rgb(250, 245, 182);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 2px;
+    border: 1px solid black;
+}
+.div11{
+    background-color: yellow;
+    margin-left: 140px;
+    margin-right: 140px;
+    text-align: center;
+}
+.div12{
+    background-color: rgb(210, 183, 236);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 2px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.div13{
+    text-align: center;
+    background-color: yellow;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.div14{
+    background-color: yellow;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+h2{
+    text-align: center;
+}
+.div15{
+    background-color: azure;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.div16{
+    background-color: azure;
+    padding: 10px;
+    float: right;
+}
+.div17{
+    background-color: rgb(172, 227, 243);
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.div18{
+    background-color: azure;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.div19{
+    text-align: center;
+    padding: 10px;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.div20{
+    text-align: center;
+    background-color: yellow;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.div21{
+    text-align: center;
+    background-color: yellow;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid black;
 }
