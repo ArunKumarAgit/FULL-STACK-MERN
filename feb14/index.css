@@ -1,10 +1,29 @@
-body{
-    background-color: rgba(47, 165, 243, 0.671);
+.hambarger{
+    height: 20px;
+    margin-bottom: 15px;
 }
-.div1{
-    background-color: aquamarine;
-    margin-left: 5cm;
-    margin-right: 5cm;
-    text-align: center;
-    padding: 2mm;
+.logo{
+    height: 50px;
+    display: inline-block;
+    margin-left: 10px;
 }
+.searchbar{
+    padding: 0.2cm;
+    margin-left: 50px;
+}
+.button1{
+    padding: 0.15cm;
+    border-left: transparent;
+    margin-left: -4px;
+
+}
+.mic{
+    height: 40px;
+}
+.menu{
+     height: 25px;
+}
+.menu1{
+    height: 24px;
+}
+
