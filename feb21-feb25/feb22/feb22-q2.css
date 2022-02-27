@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(148, 220, 241);
+}
+
+.img1{
+    height: 2cm;
+    margin-left: 10px;
+}
+.img1{
+    height: 2cm;
+    margin-left: 10px;
+    float: right;
+}
+.img2{
+    height: 2cm;
+    margin-left: 10px;
+    float:right;
+}
+.img3{
+    height: 2cm;
+    margin-left: 10px;
+    float:right;
+}
+.div1{
+    float: left;
+    ;
+}
