@@ -3,18 +3,19 @@
 
 // }
 
-function validatePalin(str) {  
-
-    const len = string.length;  
-
-    for (let i = 0; i < len / 2; i++) {  
-
-        if (string[i] !== string[len - 1 - i]) {  
-            alert( 'It is not a palindrome');  
-        }  
-    }  
-    alert( 'It is a palindrome');  
-}   
-const string = prompt('Enter a string or number: ');  
-  
-const value = validatePalin(string);  
+function checkStringsAnagram(a, b) {
+   let len1 = a.length;
+   let len2 = b.length;
+   if(len1 !== len2){
+      console.log('Invalid Input');
+      return
+   }
+   let str1 = a.split('').sort().join('');
+   let str2 = b.split('').sort().join('');
+   if(str1 === str2){
+      console.log("True");
+   } else { 
+      console.log("False");
+   }
+}
+checkStringsAnagram("indian","ndiani")
