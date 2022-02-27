@@ -1,0 +1,38 @@
+
+body {
+    background-color: rgb(241, 247, 243);
+    padding: 2.2cm;
+}
+
+#h1 {
+    text-align: center;
+    padding: 1.1cm;
+}
+
+#p1 {
+    text-align: center;
+    padding: 1cm;
+}
+
+#input {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: groove;
+    background: #f1f1f1;
+    border-radius: 4px;
+
+}
+
+#SignIn {
+    background-color: #0451a9a6;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 52.5%;
+    opacity: 0.9;
+    border-radius: 4px;
+}
