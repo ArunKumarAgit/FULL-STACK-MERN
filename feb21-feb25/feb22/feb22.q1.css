@@ -1,0 +1,28 @@
+body{
+    background-color:rgb(135, 207, 216);
+}
+.calc{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+hr{
+    border-color: aqua;
+}
+h1{
+    color: rgb(0, 60, 255);
+}
+th{
+    padding: 15px 40px 15px 40px;
+    background-color: rgb(207, 243, 243);
+}
+th:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.c{
+    background-color: rgb(118, 175, 224);
+}
+th:active{
+    color: rgb(224, 86, 5);
+    background-color: blue;
+}
