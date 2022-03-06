@@ -1,14 +1,86 @@
 <!-- Ques1. Create a web page for any product(eg. Mobile, Laptop etc.) . Inside this you have to add different brands of this product like Samsung , I-phone ,Vivo ,Mi and when you select any brand model of this product. then it should show detail of this product in a div below it, use concept of DOM Manipulation which you learned this week. (Complete the task and give hoisted site link here ) * -->
 
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <title>E STORE</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="icon" href="./shop.png">
+    <title>test-06</title>
+    <link rel="stylesheet" href="./index.css" />
 </head>
-<body> 
-    <h1>kkmkds</h1>
+
+<body>
+    <h1>MOBILE INDIA  </h1>
+    <div class="container">
+        <div class="image"> 
+            <P>REALME</P>
+            <button id="samsung" onclick="popup(1);">
+                <img
+                    src="./71bcl7VlwVL._SL1500_.jpg" />
+                <div class="details" id="1">
+
+                    <ul>
+                        <li>Discount 70%</li>
+                        <li>price:5505</li>
+                        <li>Arrving</li>
+                        <li> Battery:5000mah</li>
+                        <li>Fast charging</li>
+                    </ul>
+                </div>
+        </div>
+        <hr>
+        <div class="image">
+            <P>samsung</P>
+            <button id="samsung" onclick="popup(2);">
+                <img
+                    src="./download.jpg" />
+                <div class="details" id="2">
+
+                    <ul>
+                        <li>Discount 50%</li>
+                        <li>price:50505</li>
+                        <li>Coming Soon</li>
+                        <li> Battery:5000mah</li>
+                        <li>Fast charging</li>
+                    </ul>
+                </div>
+        </div>
+        <hr>
+        <div class="image">
+            <P>I-Phone</P>
+            <button id="samsung" onclick="popup(3);">
+                <img
+                    src="./vivo-s1_156594826370.jpg" />
+                <div class="details" id="3">
+
+                    <ul>
+                        <li>Discount 20%</li>
+                        <li>price:5,00,505</li>
+                        <li>Coming Soon</li>
+                        <li> Battery:50000mah</li>
+                        <li>Fast oops charging</li>
+                    </ul>
+                </div>
+        </div>
+        <hr>
+        <div class="image">
+            <P>OPPO</P>
+            <button id="samsung" onclick="popup(4);">
+                <img
+                    src="./vivo-s1_156352984560.jpg" />
+                <div class="details" id="4">
+
+                    <ul>
+                        <li>Discount 90%</li>
+                        <li>price:5055</li>
+                        <li>Coming Soon</li>
+                        <li> Battery:50000mah</li>
+                        <li>Fast vox charging</li>
+                    </ul>
+                </div>
+        </div>
+        
+    </div>
+    <script src="./index.js"></script>
 </body>
+
 </html>
