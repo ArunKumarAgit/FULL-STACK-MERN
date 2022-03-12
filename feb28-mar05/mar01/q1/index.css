@@ -1,0 +1,48 @@
+body{
+    background-color: bisque;
+    background-image: url(./ar.png);
+    padding: 0%;
+}
+body:hover{
+    cursor:crosshair;
+}
+
+h2{
+    color: yellow;
+    margin-left: 10%;
+    margin-top: 150px;
+}
+.input1{
+    padding: 10px;
+    margin-left: 10%;
+    border-radius: 4px;
+    border: transparent;
+}
+.input2{
+    padding: 10px;
+    margin-left: 10%;
+    border-radius: 4px;
+    border: transparent;
+    margin-top: 10px;
+}
+.input2:hover{
+    background-color: antiquewhite;
+    cursor: grab;
+}
+button{
+    padding: 5px;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.div1{
+    background-color:royalblue;
+    margin-left: 10%;
+    margin-right: 50%;
+    background-image: none;
+    padding: 1cm;
+    margin-top: 20%;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
