@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite;
+    margin: 200px;
+  }
+  #input1, #input2{
+      padding: 10px;
+      margin-bottom: 1cm;
+      border-radius: 4px;
+      border-color: transparent;
+  }
+  button{
+      padding: 10px;
+      color: rebeccapurple;
+  
+  }
