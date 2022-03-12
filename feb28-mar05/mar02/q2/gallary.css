@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+.div1{
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.div2{
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.image{
+   
+    
+    
+    background-size: contain;
+    width:400px;
+    height: 300px;
+    background-size: cover;
+    text-align: center;
+    float: left;
+    margin-left: 1%;
+   
+}
+ .image > .bottom {
+     color: aliceblue;
+     position: relative;
+     top:150px;
+ }
+ 
+ button{
+    cursor: pointer;
+ }
+ button:nth-of-type(2n):hover{
+     background-color: rgb(212, 91, 91);
+ }
+ button:nth-of-type(2n+1):hover{
+    background-color: rgb(46, 6, 6);
+    color: aliceblue;
+}
+
+span:nth-of-type(2n){
+    color:rgb(184, 169, 169);
+}
+
