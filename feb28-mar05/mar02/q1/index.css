@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(25, 163, 163);
+}
+.div1{
+    margin: 10%;
+    /* display: flex; */
+    background-color: rgb(255, 255, 255);
+}
+.nav{
+    justify-content: space-evenly;
+    display: flex;
+    background-color: antiquewhite;
+    padding: 1%;
+    position: relative;
+}
+.website, .home, .about, .blogs, .contact{
+    text-decoration: none;
+    margin: 18px;
+}
+.div2{
+    margin: 5% 10% 10% 10%;
+    padding: 80px;
+    background-image: url(./2022-03-03\ 00_42_02-Landing\ page\ design\ concept\ of\ 404\ error\ page\ not\ found\ with\ people\ trying\ to\ fi.png);
+    /* background-image: url(./2022-03-03\ 00_42_02-Landing\ page\ design\ concept\ of\ 404\ error\ page\ not\ found\ with\ people\ trying\ to\ fi.png); */
+}
