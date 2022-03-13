@@ -1,0 +1,25 @@
+img{
+    width: 300px;
+   cursor: pointer;
+ }
+ 
+ button > img{
+ width: 90vw;
+ height:90vh;
+ 
+ }
+ .dis{
+     display: none;
+ }
+ .con, .pop{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ body{background-color: bisque;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    background-color: blueviolet;
+    box-shadow: 10px 10px 10px black;
+}
