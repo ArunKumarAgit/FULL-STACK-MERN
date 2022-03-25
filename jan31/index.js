@@ -1,8 +1,8 @@
 var obj=
 	{
-	"first_name":"Nandini",
-	"last_name":"Vijayvargiya",
-	 "email":"nandinivijayvargiya999@gmail.com",
+	"first_name":"",
+	"last_name":"",
+	 "email":"",
 	"website":"www.geekster.in",
 	"k":"This is key K's value",
 	"students":[
